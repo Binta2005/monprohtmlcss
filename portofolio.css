@@ -95,10 +95,13 @@
   height: 150px;
 }
 
-.conteneur_rea {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 100px 150px 200px;
-    gap: 10px;
-    border: 2px black, solid ;
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+   margin: 5px;
+    border: 2px solid black;
+    text-align: center;
+    display: grid ;
+
 }
